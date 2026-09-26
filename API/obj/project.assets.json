@@ -1226,8 +1226,10 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Application >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.20",
-      "Microsoft.EntityFrameworkCore >= 9.0.10"
+      "Microsoft.EntityFrameworkCore >= 9.0.10",
+      "Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1257,6 +1259,12 @@
           "projectReferences": {
             "/Users/nick/itdev162/nicholas-lauer/Application/Application.csproj": {
               "projectPath": "/Users/nick/itdev162/nicholas-lauer/Application/Application.csproj"
+            },
+            "/Users/nick/itdev162/nicholas-lauer/Domain/Domain.csproj": {
+              "projectPath": "/Users/nick/itdev162/nicholas-lauer/Domain/Domain.csproj"
+            },
+            "/Users/nick/itdev162/nicholas-lauer/Persistence/Persistence.csproj": {
+              "projectPath": "/Users/nick/itdev162/nicholas-lauer/Persistence/Persistence.csproj"
             }
           }
         }
